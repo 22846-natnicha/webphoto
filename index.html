@@ -1,72 +1,142 @@
-HTML
 <!DOCTYPE html>
 <html lang="th">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Wanderlust - เว็บแนะนำที่เที่ยว</title>
+    <title>Pet Paradise - เว็บแนะนำสัตว์เลี้ยง</title>
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 </head>
-<body class="bg-gray-50 font-sans text-gray-800">
+<body class="bg-amber-50/30 font-sans text-gray-800">
 
     <nav class="bg-white shadow-md p-4 sticky top-0 z-50">
         <div class="container mx-auto flex justify-between items-center">
-            <a href="#" class="text-2xl font-bold text-teal-600">🌴 Wanderlust</a>
+            <a href="#" class="text-2xl font-bold text-amber-600">🐾 Pet Paradise</a>
             <div class="space-x-6">
-                <a href="#" class="hover:text-teal-600 font-medium">หน้าแรก</a>
-                <a href="#" class="hover:text-teal-600 font-medium">หาที่เที่ยว</a>
-                <a href="#" class="hover:text-teal-600 font-medium">บทความ</a>
+                <a href="#" class="hover:text-amber-600 font-medium">หน้าแรก</a>
+                <a href="#" class="hover:text-amber-600 font-medium">คู่มือดูแล</a>
+                <a href="#" class="hover:text-amber-600 font-medium">สายพันธุ์ยอดฮิต</a>
             </div>
         </div>
     </nav>
 
-    <header class="bg-cover bg-center h-[450px] flex flex-col justify-center items-center text-white p-4" style="background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1200&q=80');">
-        <h1 class="text-4xl md:text-6xl font-bold mb-4 text-center">ค้นพบจุดหมายต่อไปของคุณ</h1>
-        <p class="text-lg md:text-xl mb-6 text-center text-gray-200">รวมสถานที่ท่องเที่ยว คาเฟ่ และธรรมชาติที่คุณไม่ควรพลาด</p>
+    <header class="bg-cover bg-center h-[450px] flex flex-col justify-center items-center text-white p-4" style="background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('https://images.unsplash.com/photo-1450778869180-41d0601e046e?auto=format&fit=crop&w=1200&q=80');">
+        <h1 class="text-4xl md:text-6xl font-bold mb-4 text-center">ค้นพบเพื่อนแท้และคู่หูคู่ใจของคุณ</h1>
+        <p class="text-lg md:text-xl mb-6 text-center text-gray-200">รวมข้อมูลสัตว์เลี้ยง วิธีการดูแล และสายพันธุ์ยอดฮิตที่คุณไม่ควรพลาด</p>
         <div class="w-full max-w-md flex bg-white rounded-lg overflow-hidden shadow-lg">
-            <input type="text" placeholder="ค้นหาจังหวัด หรือสถานที่..." class="w-full px-4 py-3 text-gray-800 focus:outline-none">
-            <button class="bg-teal-600 hover:bg-teal-700 text-white px-6 font-medium transition">ค้นหา</button>
+            <input type="text" placeholder="ค้นหาสายพันธุ์ หรือข้อมูลการดูแล..." class="w-full px-4 py-3 text-gray-800 focus:outline-none">
+            <button class="bg-amber-500 hover:bg-amber-600 text-white px-6 font-medium transition">ค้นหา</button>
         </div>
     </header>
 
     <main class="container mx-auto px-4 py-12">
-        <h2 class="text-3xl font-bold text-gray-900 mb-8 text-center">📍 สถานที่แนะนำสัปดาห์นี้</h2>
+        <h2 class="text-3xl font-bold text-gray-900 mb-8 text-center">🐾 เรื่องน่ารู้และสายพันธุ์ยอดฮิตสัปดาห์นี้</h2>
         
         <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
             <div class="bg-white rounded-xl overflow-hidden shadow-md hover:shadow-xl transition duration-300">
-                <img src="https://images.unsplash.com/photo-1528127269322-539801943592?auto=format&fit=crop&w=600&q=80" alt="ที่เที่ยว" class="w-full h-48 object-cover">
+                <img src="https://images.unsplash.com/photo-1514888286974-6c03e2ca1dba?auto=format&fit=crop&w=600&q=80" alt="การดูแลแมว" class="w-full h-48 object-cover">
                 <div class="p-5">
-                    <span class="text-xs font-bold text-teal-600 uppercase tracking-wider">ธรรมชาติ</span>
-                    <h3 class="text-xl font-bold mt-1 mb-2">ดอยเสมอดาว, น่าน</h3>
-                    <p class="text-gray-600 text-sm mb-4">นอนนับดาว สัมผัสทะเลหมอกยามเช้า จุดกางเต็นท์สุดโรแมนติกที่สายธรรมชาติห้ามพลาด</p>
-                    <a href="#" class="text-teal-600 font-semibold hover:underline text-sm">ดูรายละเอียดเพิ่มเติม →</a>
+                    <span class="text-xs font-bold text-emerald-600 uppercase tracking-wider">การดูแล</span>
+                    <h3 class="text-xl font-bold mt-1 mb-2">คู่มือการดูแลลูกแมวแรกเกิด</h3>
+                    <p class="text-gray-600 text-sm mb-4">สิ่งสำคัญที่ทาสแมวมือใหม่ต้องรู้ ตั้งแต่เรื่องอาหาร อุณหภูมิห้องที่เหมาะสม และการกระตุ้นขับถ่ายเพื่อให้ลูกแมวเติบโตอย่างแข็งแรง</p>
+                    <a href="#" class="text-amber-600 font-semibold hover:underline text-sm">อ่านคู่มือเพิ่มเติม →</a>
                 </div>
             </div>
 
             <div class="bg-white rounded-xl overflow-hidden shadow-md hover:shadow-xl transition duration-300">
-                <img src="https://images.unsplash.com/photo-1554118811-1e0d58224f24?auto=format&fit=crop&w=600&q=80" alt="คาเฟ่" class="w-full h-48 object-cover">
+                <img src="https://images.unsplash.com/photo-1583511655857-d19b40a7a54e?auto=format&fit=crop&w=600&q=80" alt="สุนัขคอร์กี้" class="w-full h-48 object-cover">
                 <div class="p-5">
-                    <span class="text-xs font-bold text-amber-600 uppercase tracking-wider">คาเฟ่</span>
-                    <h3 class="text-xl font-bold mt-1 mb-2">Slow Life Cafe, เชียงใหม่</h3>
-                    <p class="text-gray-600 text-sm mb-4">ร้านกาแฟในสวนลับริมลำธาร บรรยากาศร่มรื่น เหมาะแก่การไปนั่งทำงานหรือพักผ่อนชิลๆ</p>
-                    <a href="#" class="text-teal-600 font-semibold hover:underline text-sm">ดูรายละเอียดเพิ่มเติม →</a>
+                    <span class="text-xs font-bold text-amber-600 uppercase tracking-wider">สายพันธุ์สุนัข</span>
+                    <h3 class="text-xl font-bold mt-1 mb-2">เวลช์ คอร์กี้ (Welsh Corgi)</h3>
+                    <p class="text-gray-600 text-sm mb-4">เจ้าหมาขาสั้นก้นเด้ง ขวัญใจคนทั่วโลก มาทำความรู้จักกับนิสัยใจคอ ระดับพลังงาน และวิธีการเลี้ยงดูเจ้าคอร์กี้ให้มีความสุข</p>
+                    <a href="#" class="text-amber-600 font-semibold hover:underline text-sm">ดูข้อมูลสายพันธุ์ →</a>
                 </div>
             </div>
 
             <div class="bg-white rounded-xl overflow-hidden shadow-md hover:shadow-xl transition duration-300">
-                <img src="https://images.unsplash.com/photo-1505881502353-a1986add3762?auto=format&fit=crop&w=600&q=80" alt="ทะเล" class="w-full h-48 object-cover">
+                <img src="https://images.unsplash.com/photo-1607990283143-e81e7a2c93ab?auto=format&fit=crop&w=600&q=80" alt="นกแก้วซันคอนัวร์" class="w-full h-48 object-cover">
                 <div class="p-5">
-                    <span class="text-xs font-bold text-blue-600 uppercase tracking-wider">ทะเล</span>
-                    <h3 class="text-xl font-bold mt-1 mb-2">เกาะหลีเป๊ะ, สตูล</h3>
-                    <p class="text-gray-600 text-sm mb-4">มัลดีฟส์เมืองไทย น้ำทะเลใสจนเห็นตัวปลา หาดทรายขาวละเอียดนุ่มเท้าที่สุด</p>
-                    <a href="#" class="text-teal-600 font-semibold hover:underline text-sm">ดูรายละเอียดเพิ่มเติม →</a>
+                    <span class="text-xs font-bold text-blue-600 uppercase tracking-wider">สัตว์เลี้ยงทางเลือก</span>
+                    <h3 class="text-xl font-bold mt-1 mb-2">นกแก้วซันคอนัวร์ (Sun Conure)</h3>
+                    <p class="text-gray-600 text-sm mb-4">นกแก้วสีสันสดใส ขี้อ้อน และฉลาดเป็นกรด เหมาะสำหรับคนที่ชอบสัตว์เลี้ยงที่มีชีวิตชีวาและชอบส่งเสียงเจื้อยแจ้ว</p>
+                    <a href="#" class="text-amber-600 font-semibold hover:underline text-sm">ดูข้อมูลเพิ่มเติม →</a>
                 </div>
             </div>
         </div>
     </main>
 
     <footer class="bg-gray-900 text-gray-400 text-center py-6 mt-12">
-        <p>© 2026 Wanderlust Guide. Created with ❤️ for Travelers.</p>
+        <p>© 2026 Pet Paradise Guide. Created with ❤️ for Pet Lovers.</p>
+    </footer>
+
+</body>
+</html><!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pet Paradise - เว็บแนะนำสัตว์เลี้ยง</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+<body class="bg-amber-50/30 font-sans text-gray-800">
+
+    <nav class="bg-white shadow-md p-4 sticky top-0 z-50">
+        <div class="container mx-auto flex justify-between items-center">
+            <a href="#" class="text-2xl font-bold text-amber-600">🐾 Pet Paradise</a>
+            <div class="space-x-6">
+                <a href="#" class="hover:text-amber-600 font-medium">หน้าแรก</a>
+                <a href="#" class="hover:text-amber-600 font-medium">คู่มือดูแล</a>
+                <a href="#" class="hover:text-amber-600 font-medium">สายพันธุ์ยอดฮิต</a>
+            </div>
+        </div>
+    </nav>
+
+    <header class="bg-cover bg-center h-[450px] flex flex-col justify-center items-center text-white p-4" style="background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('https://images.unsplash.com/photo-1450778869180-41d0601e046e?auto=format&fit=crop&w=1200&q=80');">
+        <h1 class="text-4xl md:text-6xl font-bold mb-4 text-center">ค้นพบเพื่อนแท้และคู่หูคู่ใจของคุณ</h1>
+        <p class="text-lg md:text-xl mb-6 text-center text-gray-200">รวมข้อมูลสัตว์เลี้ยง วิธีการดูแล และสายพันธุ์ยอดฮิตที่คุณไม่ควรพลาด</p>
+        <div class="w-full max-w-md flex bg-white rounded-lg overflow-hidden shadow-lg">
+            <input type="text" placeholder="ค้นหาสายพันธุ์ หรือข้อมูลการดูแล..." class="w-full px-4 py-3 text-gray-800 focus:outline-none">
+            <button class="bg-amber-500 hover:bg-amber-600 text-white px-6 font-medium transition">ค้นหา</button>
+        </div>
+    </header>
+
+    <main class="container mx-auto px-4 py-12">
+        <h2 class="text-3xl font-bold text-gray-900 mb-8 text-center">🐾 เรื่องน่ารู้และสายพันธุ์ยอดฮิตสัปดาห์นี้</h2>
+        
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <div class="bg-white rounded-xl overflow-hidden shadow-md hover:shadow-xl transition duration-300">
+                <img src="https://images.unsplash.com/photo-1514888286974-6c03e2ca1dba?auto=format&fit=crop&w=600&q=80" alt="การดูแลแมว" class="w-full h-48 object-cover">
+                <div class="p-5">
+                    <span class="text-xs font-bold text-emerald-600 uppercase tracking-wider">การดูแล</span>
+                    <h3 class="text-xl font-bold mt-1 mb-2">คู่มือการดูแลลูกแมวแรกเกิด</h3>
+                    <p class="text-gray-600 text-sm mb-4">สิ่งสำคัญที่ทาสแมวมือใหม่ต้องรู้ ตั้งแต่เรื่องอาหาร อุณหภูมิห้องที่เหมาะสม และการกระตุ้นขับถ่ายเพื่อให้ลูกแมวเติบโตอย่างแข็งแรง</p>
+                    <a href="#" class="text-amber-600 font-semibold hover:underline text-sm">อ่านคู่มือเพิ่มเติม →</a>
+                </div>
+            </div>
+
+            <div class="bg-white rounded-xl overflow-hidden shadow-md hover:shadow-xl transition duration-300">
+                <img src="https://images.unsplash.com/photo-1583511655857-d19b40a7a54e?auto=format&fit=crop&w=600&q=80" alt="สุนัขคอร์กี้" class="w-full h-48 object-cover">
+                <div class="p-5">
+                    <span class="text-xs font-bold text-amber-600 uppercase tracking-wider">สายพันธุ์สุนัข</span>
+                    <h3 class="text-xl font-bold mt-1 mb-2">เวลช์ คอร์กี้ (Welsh Corgi)</h3>
+                    <p class="text-gray-600 text-sm mb-4">เจ้าหมาขาสั้นก้นเด้ง ขวัญใจคนทั่วโลก มาทำความรู้จักกับนิสัยใจคอ ระดับพลังงาน และวิธีการเลี้ยงดูเจ้าคอร์กี้ให้มีความสุข</p>
+                    <a href="#" class="text-amber-600 font-semibold hover:underline text-sm">ดูข้อมูลสายพันธุ์ →</a>
+                </div>
+            </div>
+
+            <div class="bg-white rounded-xl overflow-hidden shadow-md hover:shadow-xl transition duration-300">
+                <img src="https://images.unsplash.com/photo-1607990283143-e81e7a2c93ab?auto=format&fit=crop&w=600&q=80" alt="นกแก้วซันคอนัวร์" class="w-full h-48 object-cover">
+                <div class="p-5">
+                    <span class="text-xs font-bold text-blue-600 uppercase tracking-wider">สัตว์เลี้ยงทางเลือก</span>
+                    <h3 class="text-xl font-bold mt-1 mb-2">นกแก้วซันคอนัวร์ (Sun Conure)</h3>
+                    <p class="text-gray-600 text-sm mb-4">นกแก้วสีสันสดใส ขี้อ้อน และฉลาดเป็นกรด เหมาะสำหรับคนที่ชอบสัตว์เลี้ยงที่มีชีวิตชีวาและชอบส่งเสียงเจื้อยแจ้ว</p>
+                    <a href="#" class="text-amber-600 font-semibold hover:underline text-sm">ดูข้อมูลเพิ่มเติม →</a>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="bg-gray-900 text-gray-400 text-center py-6 mt-12">
+        <p>© 2026 Pet Paradise Guide. Created with ❤️ for Pet Lovers.</p>
     </footer>
 
 </body>
